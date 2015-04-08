@@ -2138,7 +2138,7 @@ def dsl(parser, xml_parent, data):
 
     :arg str script-text: dsl script which is Groovy code (Required if target
         is not specified)
-    :arg str target: Newline separated list of DSL scripts, located in the
+    :arg str targets: Newline separated list of DSL scripts, located in the
         Workspace. Can use wildcards like 'jobs/\*\*/\*.groovy' (Required
         if script-text is not specified)
     :arg str ignore-existing: Ignore previously generated jobs and views
